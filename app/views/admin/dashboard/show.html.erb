@@ -1,2 +1,16 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<div class="admin-container">
+<h1>Admin Page</h1>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h3 class="card-title d-flex justify-content-center">Totals</h3>
+    <h5><strong>Total Products:</strong> <%= @product_total %></h5>
+    <h5><strong>Total Categories:</strong> <%= @category_total %></h5>    
+    <div>
+    <%= link_to "admin/products#index", class: 'btn btn-success' do %>
+      Click here to return to your product page
+    <% end %>
+    </div>
+  </div>
+</div>
+</div>

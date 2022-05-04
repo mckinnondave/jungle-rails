@@ -1,0 +1,11 @@
+.btn-row{
+  display: flex;
+  justify-content: space-between;
+}
+.admin-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
